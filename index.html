@@ -10,8 +10,17 @@
 
     <title>Profissão Desenvolvedor Web</title>
     <link rel="icon" href="imagens/favicon.png"/>
+
+    <style>
+    body {position: relative;}
+    </style>
+
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar-example2">
+
+
+
+
       <main class="conteiner">
           
           <div class=" big-secess jumbotron jumbotron-fluid rounded-lg shadow-lg ">
@@ -26,6 +35,27 @@
                   </p>
               </div>
           </div>
+
+<!-- inicio do menu de navegaçao-->
+<nav id="navbar-example2" class="navbar navbar-light bg-light stick-top">
+  <a class="navbar-brand" href="#">Rafael Castro</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#frontend">Front-end</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#backend">back-end</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#devops">DevOps</a>
+    </li>
+  </ul>
+</nav>
+
+<!-- fim do menu de navegaçao-->
+
+
+
           <!--iniciodo carrossel -->
             <div class="bd-example">
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -70,14 +100,59 @@
 
 <!--fim do carrossel -->
 
-<div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
+<!--inicio conteudo da barra de navegacao-->
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+  <h4 id="frontend" style="padding-top:80px" >Front-end</h4>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+
+
+
+  <h4 id="backend"style=" padding-top:80px">Back-end</h4>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p> 
+  <h4 id="devops"style=" padding-top:80px">DevOps</h4>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+
 </div>
+<!--fim conteudo da barra de navegacao-->
+
+<button type="button" class="btn btn-primary">Back-end</button>
+<button type="button" class="btn btn-secondary">Front-end</button>
+<button type="button" class="btn btn-success">DevOps</button>
+
+
+
 
 
 
